@@ -9,3 +9,9 @@
 .ul {
 	font-size: .8em;
 }
+.highlight:hover {
+   color: #ff0000 ;
+}
+ul > li.blue {
+	color:#0000A0;
+}

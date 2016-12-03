@@ -1,0 +1,18 @@
+1. client: is the user or the interface local
+   server: is the master interface or cloud
+   render: is the act of transforming code "html" into visual parameters.
+
+ 2. html is a interface textual where the user makes render thru elements which are called tags where attributes are use specific thru elements to store data, showing that block elements are structural and inline elements are text based.
+
+ 3. head is the element area where includes title of docs .
+    body is where the contents are.
+    p represents a paragraph
+    form area designed to colletc input from the user
+    div is used to group blocks.
+    span group elements for styling
+    h2 is a tag of which secondary importance is given into de caracters form of the text.
+    ol defines a list order
+    ul defines a list no order
+    table elements for layout pages
+    tr defines a row in a table
+    td defines a cell in a table that stores data

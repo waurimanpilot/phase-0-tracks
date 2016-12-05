@@ -1,3 +1,12 @@
-.octopusglasseshat {
+octopusglasseshat {
 	position: relative;
+}
+hat {
+	position: absolute;
+}
+glasses {
+	position: relative;
+}
+octopus {
+	position: absolute;
 }

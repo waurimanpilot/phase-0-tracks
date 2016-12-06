@@ -1,0 +1,7 @@
+review reflect.txt
+
+2.external , internal and inline. external is the most appropriate.
+3.selectors are patterns to select elements that will be design.  like:  div, p, #id
+4. box model is used to layout and design.
+5. is a style sheet language used for describing the presentation of a document written in a markup language(i.e. html).
+6. float and display

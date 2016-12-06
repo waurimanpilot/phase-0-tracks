@@ -1,0 +1,12 @@
+body {
+	font-style: times new roman;
+	font-size: 1em;
+	background-color: red;
+}
+
+nav {
+	border: 5px;
+	padding: 10px;
+	background-color: blue;
+	font-style: italic;
+}

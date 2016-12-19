@@ -39,7 +39,7 @@ def fib(totalIndex)
   end
   return fib_array
 end
-
+ 
 p fib(100)
 
 

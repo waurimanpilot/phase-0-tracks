@@ -45,12 +45,11 @@ def jumps
 end
 #looping 50 times the class
 
-def cat_repeat
 cats_array = []
-number_of_cats = 0
-	while number_of_cats < 50
+
+	50.times do 
 	  cats_array.push(tom = Cat.new)
-	  number_of_cats +=1
+	  
  end
 # Iterate over that data structure using .each and call the instance 
 # methods you wrote on each instance. 

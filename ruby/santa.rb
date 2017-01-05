@@ -1,17 +1,33 @@
 class Santa
-  def initialize (gender, ethnicity, reeindeer_ranking)
-  	@gender = "black"
-  	@etnicity = " "
-  	P "Inicializing Santa instance..."
- end
-
-  def reindeer (reindeer_ranking)
+  attr_reader :gender 
+  def initialize (gender, ethnicity, age)
+  	@gender = gender
+  	@etnicity = ethnicity
+  	@age = age 
   	@reindeer_ranking = [ "Rudolph", "Dasher", "Dancer", "Prancer", "Vixen", "Comet", "Cupid", "Donner", "Blitzen"]
-  	 	
+  	p "Inicializing Santa instance..."
+
+ end
+ 
+#setter  method
+  def celebrate_birthday
+   @age += 1
+  end
+
+  def get_mad_at (name)
+      @reindeer_ranking << name if @reindeer_ranking.delete(name)
+  end
+
+  def gender (gender)
+  	  @gender = gender
   end
 
   def age
-  	@age = 0
+  	return @age
+  end
+
+  def ethnicity
+  	return @ethnicity
   end
 
   def speak
@@ -22,11 +38,15 @@ class Santa
   	puts "Thats was a good #{snickerdoodle}!"
   end
 
-  
+  def dif_santa
+    puts  
+  end
 end
-santa = Santa.new()
-santa = speak()
-santa = 
-p speak
-p eat_milk_and_cookies
-p initialize
+
+santas = []
+example_genders = ["agender", "female", "bigender", "male", "female", "gender fluid", "N/A"]
+example_ethnicities = ["black", "Latino", "white", "Japanese-African", "prefer not to say", "Mystical Creature (unicorn)", "N/A"]
+60.times do 
+  santas << Santa.new(example_genders[rand(0..6)], example_ethnicities[rand(0..6)], rand(0..140))
+end
+p santas

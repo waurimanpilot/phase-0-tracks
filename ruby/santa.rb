@@ -49,4 +49,4 @@ example_ethnicities = ["black", "Latino", "white", "Japanese-African", "prefer n
 60.times do 
   santas << Santa.new(example_genders[rand(0..6)], example_ethnicities[rand(0..6)], rand(0..140))
 end
-p santas
+p santas 

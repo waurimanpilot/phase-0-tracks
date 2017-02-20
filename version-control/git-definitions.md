@@ -12,3 +12,4 @@
     * Good description of your update into de repository makes a good message.
 * What is a merge conflict?
     * I think is when your branch and the branch you want to merge had separate ways and your commits are not on the other branch.
+    

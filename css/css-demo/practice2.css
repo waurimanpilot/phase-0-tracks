@@ -1,0 +1,17 @@
+#contact-info {
+    font-size: .8em;
+}
+.job {
+     border-radius: 25px;
+    background:#e9e5dc ;
+    padding: 15px;        
+}
+.ul {
+    font-size: .8em;
+}
+.highlight:hover {
+   color: #ff0000  ;
+}
+ul > li.blue {
+    color:#0000A0 ;
+}

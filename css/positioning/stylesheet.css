@@ -1,12 +1,18 @@
-octopusglasseshat {
+
+#hat {
 	position: relative;
+	left: 590px;
+	top: 150px; 
+	z-index: 1;
 }
-hat {
-	position: absolute;
-}
-glasses {
+#glasses {
 	position: relative;
+	left: 375px;
+	top: 200px; 
 }
-octopus {
+#octopus {
 	position: absolute;
+     margin: 60px;
+     padding: 150px;
+     left: 410px;
 }

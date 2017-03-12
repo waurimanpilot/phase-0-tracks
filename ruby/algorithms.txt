@@ -9,7 +9,7 @@
 #4 make another left turn until reaching the wall
 #5 stop at wall and push desired buttom level (buttom boxes usually at left side of the door)
 #6 at the desired level check for door open 
-#7 proceed exit
+#7 proceed exit 
 
 
 #Release 1

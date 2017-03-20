@@ -19,7 +19,6 @@
 #define method that takes array of integers
 #method also takes interger to search
 #returns nil if number not present
-
 #method takes number of Fibonacci terms to generate and returns an array of the terms.
 #for example
 #fib(6)
@@ -41,7 +40,6 @@ def fib(totalIndex)
 end
  
 p fib(100)
-
 
 if fib(100)[-1] == 218922995834555169026
   puts "Yes, the last number is a match"

@@ -36,4 +36,4 @@
 # (What is the significance of the number 122 in relation to the character z?)
 # number 122 is the return integer ordinal of one-character string "z"
 # "How many times does the letter 'a' appear in this string?".count "a"
-# => 4
+# =>  4

@@ -1,5 +1,5 @@
-# declare details for a given client; name, age, number of children, decor them.
- #set the input into variables
+# declare details for a given client: name, age, number of children, decor them.
+#set the input into variables
 puts "Designer's name:"
 	design_name = gets.chomp
 puts "Designer's age:"
@@ -16,6 +16,7 @@ design = {
 	number_children: design_number,
 	design_decor: design_decor
 }
+
 #print (p) the list back out when user has finished questionnaire.
 p design
 puts "Do you desire to update any info : (None or seletion desired)"

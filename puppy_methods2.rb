@@ -41,6 +41,7 @@ def jumps
   puts '*sky high jumps*'
   end
   
+  
 def initialize
   puts "Initializing new kitty instance ..."
   end

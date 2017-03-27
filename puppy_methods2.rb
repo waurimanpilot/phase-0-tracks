@@ -42,7 +42,7 @@ class Cat
     puts "Initializing new kitty instance ..."
   end
 end
-#looping 50 times the class using  .times and giving tom variable the new value of cat. 
+#looping 50 times the class and giving tom variable the new value of cat. 
 
 cats_array = []
 

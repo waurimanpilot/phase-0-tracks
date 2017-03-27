@@ -8,13 +8,13 @@ class Puppy
       end
   end
   def roll_over
-    puts '*rolls over*'
+    puts "rolls over"
   end
   def dog_years(human_years)
     p human_years*15
   end  
   def sit
-    puts '*sit*'
+    puts "sit"
   end
   def initialize
   puts "Initializing new puppy instance ..."

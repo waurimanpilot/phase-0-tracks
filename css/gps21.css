@@ -1,3 +1,24 @@
-h1 {
-	background-color: blue;
+body {
+  background-image:url(https://camo.githubusercontent.com/286cbea9e490902230d096fa2a77f27e458d0584/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f322f34383136372f32363362636131302d353866662d313165322d386438322d3932346534636431643462372e706e67)
+}
+
+.wrap {
+  overflow: auto;
+}
+
+.column-1 {
+ display: block;
+ float: left;
+ background: green;
+ width: 50%;
+ font-style: Helvetica;
+}
+
+.column-2 {
+ display: block;
+ float: left;
+ background: red;
+ width: 50%;
+ font-style: Times New Roman;
+ color: white;
 }

@@ -1,0 +1,20 @@
+body {
+	font-style: time new roman;
+	font-size: 15%;
+	background-color: red;
+}
+header {
+	margin: 50px;
+	padding: 40px;
+	border-style: solid
+	text-decoration: underline;
+}
+nav {
+	background-color: blue;
+	font-style: italic;
+	display: inline;
+	list-style-type: square;
+}
+.li: hover {
+    background-color: red;
+}

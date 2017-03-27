@@ -28,3 +28,13 @@ puts "Type yes to run another calculation or done to end: "
       puts "Thanks for using Calculus"
     end
 end
+
+while run_calculator == "yes"
+  puts "Please enter a calculation"
+  user_input = gets.chomp
+  # run calculation method
+  # store calculation
+  # print calculation 
+  puts "Another calculation? yes or no"
+  run_calculator = gets.chomp
+end

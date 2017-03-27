@@ -49,7 +49,6 @@ cats_array = []
   50.times do 
     cats_array.push(tom = Cat.new)
  end
- 
 # Iterate over that data structure using .each and call the instance 
 # methods you wrote on each instance. 
 # So if you wrote a Gymnast class, this is where you'd call .flip and

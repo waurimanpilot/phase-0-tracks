@@ -27,22 +27,19 @@ doggo.roll_over
 doggo.dog_years(4)
 doggo.sit
 shadow = Puppy.new
-
 # implement method
 # initialize methods
 class Cat
-
-#scratch method
-def scratch
-  puts "scratch"
-end
+  def scratch
+    puts "scratch"
+  end
 #jumps method
-def jumps
-  puts "sky high jumps"
+  def jumps
+    puts "sky high jumps"
   end
   
-def initialize
-  puts "Initializing new kitty instance ..."
+  def initialize
+    puts "Initializing new kitty instance ..."
   end
 end
 #looping 50 times the class

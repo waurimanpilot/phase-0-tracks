@@ -1,0 +1,34 @@
+# Robot using a Elevator
+#Having a reference starting from ground level, and that the robot is pre-programmed with with recognition optical reader of buttons
+#from ground level check if door is open, 
+#1 if door is open proceed entrance go to 2
+#1.2 if door is closed turn left until reach for button box 
+#1.3 push button arrow up go to 1. 
+#2 within the elevator proceed until wall,
+#3 at the wall turn to your left until wall
+#4 make another left turn until reaching the wall
+#5 stop at wall and push desired buttom level (buttom boxes usually at left side of the door)
+#6 at the desired level check for door open 
+#7 proceed exit 
+
+
+#Release 1
+# First Morning Task Going to school
+
+#waking up:
+#if 6:00am get up go to 2 , if not stay in bed
+#2 go to my son's bed, 
+#3 wake my son up , 
+#4 got to bathroom
+#5 take a shower and brush teeth
+#6 go to son's bedroom send him to bathroom
+#7 while son is at bathroom go to kitchen
+#8 Prepare Breakfast, 
+#9 go to bathroom check if son is ready, if not hurry him
+#10 send him to kitchen to eat breakfast
+#11 check time if time is equal 7:30am , leave the house to to 14, if not proceed waiting
+#12 if time is greater then 7:30 less than 7:50 leave the house go to 14
+#13 if time is greater then 7:50 stay, call school for absence
+#14 direct to garage
+
+

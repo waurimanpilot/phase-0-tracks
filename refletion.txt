@@ -1,0 +1,22 @@
+1- is where data is store in programs. Programmer, can set values, overwrite values, and ruby can evaluate those values in better performance.
+
+2- Getting a input from the user(Abraham) to a variable (first_name) , then Getting a 2nd input (Lincoln) to a variable (last_name) then setting a third variable (full_name) to store a operation (sum) of the first and second variables  and print the variable .
+
+3- string store text values “ruby is great”
+ integer store numbers  1, 2, 3 
+ float is a class that returns decimal numbers 1.0 , 5.5, 8.42
+nil  is a null value
+boolean is a variable that returns true or false value
+
+4-algorithm is  a effective method that can be expressed within a finite amount of space and time.
+5- conquer and dinamic
+
+6- is a set of expressions that returns a value. 
+programmers need them in order when writing that piece of code that needs to be executed many times. 
+7.return value : every method returns a value when this method is call returns the last declared variable.
+9- control flow is the flexibility to select different outcomes depending on the information, on the result of computation or the value returned by other program part.
+10 . loop is a repetitive execution of a piece of code for a certain amount of receptions or until the condition is met.
+if  used for conditional execution.
+else used also as conditional execution as a last condition
+while is a conditional that is executed until the condition is met
+until is a conditional that is run for a specific need time.

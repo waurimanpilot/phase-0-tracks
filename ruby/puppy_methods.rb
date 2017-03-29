@@ -3,7 +3,7 @@ class Puppy
     puts "I brought back the #{toy}!"
     toy
   end
-  def speak(text, c= integer)
+  def speak(c= integer)
   c.times do print "Woof!" 
   		end
   end

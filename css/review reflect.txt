@@ -1,5 +1,5 @@
 review reflect.txt
-
+1.inline style, embedded styles and external styles.
 2.external , internal and inline. external is the most appropriate.
 3.selectors are patterns to select elements that will be design.  like:  div, p, #id
 4. box model is used to layout and design.

@@ -112,7 +112,6 @@ update(final_list, 'Ice Cream', 1)
 p final_list
 
 printout(final_list)
-
 # Release 4: Reflect
 # I learned how suitable and pointer pseudocode can implement helping organizing your method
 # Tradeoffs of using arrays and hashes are everything into a data structure .

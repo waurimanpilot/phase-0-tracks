@@ -1,26 +1,27 @@
 # Virus Predictor
 
-# I worked on this challenge [by myself, with: ].
-# We spent [#] hours on this challenge.
+# I worked on this challenge by myself.
+# We spent [11] hours on this challenge.
 
 # EXPLANATION OF require_relative
-#
-#
+
+#require_relative allows you to load a file relative to the file requiring state.
+#require itself also loads a file but needs the complete path of that file.
 require_relative 'state_data'
 
 class VirusPredictor
-
+#initialize method has the inicial variables as definition for the block
   def initialize(state_of_origin, population_density, population)
     @state = state_of_origin
     @population = population
     @population_density = population_density
   end
-
+#virus_effects method denotes a  array of instances into two variables
   def virus_effects
     predicted_deaths(@population_density, @population, @state)
     speed_of_spread(@population_density, @state)
   end
-
+#
   private
 
   def predicted_deaths(population_density, population, state)
@@ -85,3 +86,24 @@ alaska.virus_effects
 
 #=======================================================================
 # Reflection Section
+# 1:What are the differences between the two different hash syntaxes shown in the state_data file?
+# => Inside the value of the first hash there is a key-value pair.
+
+# 2:What does require_relative do? How is it different from require?
+# =>You can call “require” and “require_relative” to reference files, repositories, or entire libraries of code. 
+# “Require” points to code, installed from remote locations (e.g., Ruby gems) 
+# within your Ruby path. 
+# Alternatively, “require_relative” looks for code according to a given relative path.
+ # With require_relative, if you give the wrong path, your program will break.
+
+# 3:What are some ways to iterate through a hash?
+# => hash.each dp |key,value|
+       # new_vaiable = class.new(key,value[:next_key],value[:second_next_key])
+
+# 4:When refactoring virus_effects, what stood out to you about the variables, if anything?
+# =>I remembered that once we set a global instance we do not need to take it as a parameter or argument.
+
+# 5:What concept did you most solidify in this challenge?
+# => iterating through hash. and relative.
+
+

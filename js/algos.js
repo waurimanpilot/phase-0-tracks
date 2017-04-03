@@ -4,7 +4,6 @@
 var phrase = ["long phrase","longest phrase","longer phrase"];
 var sorted = phrase.sort(function (somestring, morestring) { return morestring.length - somestring.length });
 console.log(sorted[0]);
-
 var file1 = {name: "Steven", age: 54} ;
 var file2 = {name: "Tamir", age: 54};
 function Share(name, age){
